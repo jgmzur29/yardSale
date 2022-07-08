@@ -1,4 +1,4 @@
-#YardSale🏪
+YardSale🏪
 
 It is a React.js SPA of a fictitious mini store. The project consists of different views and pages which are accessed using React Router routes.
 
