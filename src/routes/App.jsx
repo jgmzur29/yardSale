@@ -21,7 +21,8 @@ const App = () => {
 
   return (
 	<AppContext.Provider value={InitialState}>
-	  <BrowserRouter>
+	  <BrowserRouter
+	  basename='/yardSale'>
 		  <Layout>
 			  <Routes>
 				  <Route exact path="/" element={<Home />} />
