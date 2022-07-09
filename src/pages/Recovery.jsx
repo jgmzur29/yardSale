@@ -1,7 +1,6 @@
 import React from "react";
 import "@styles/Recovery.scss";
 import logo from "@assets/yardSaleLogo.svg";
-import { withRouter } from 'react-router-dom';
 
 const Recovery = () => {
 

@@ -1,5 +1,5 @@
 {
-  "homePage": "https://jgmzur29.github.io/yardSale/",
+  "homepage":"https://jgmzur29.github.io/yardSale/",
   "name": "reactshop",
   "version": "1.0.0",
   "description": "project about yardSale shop and react integration",
@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "shop",
@@ -36,6 +38,7 @@
   "devDependencies": {
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2",
